@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity6"
+    android:orientation="vertical">
+
+    <!-- Neumorph CardView containing a TextView -->
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bludream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Dream Co. Ltd."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/fabric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        >
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Dream Fabric Ltd."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/interior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Dream Interior Design Ltd."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+    <!-- Neumorph CardView containing a TextView -->
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/leather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Dream Leather Ltd."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/realstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        >
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue Dream Real Estate Ltd."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/Asian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/purple_500"
+        app:neumorph_shadowColorLight="@color/black"
+
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asian Life Foundation."
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+
+</LinearLayout>
