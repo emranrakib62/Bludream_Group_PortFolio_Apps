@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/myNeumorphCard"
+        android:layout_margin="3dp"
+        android:padding="12dp"
+        app:neumorph_shapeType="basin"
+        app:neumorph_shadowElevation="6dp"
+        app:neumorph_backgroundColor="#E0E0E0"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        app:neumorph_shadowColorLight="#DEEF38"
+        app:neumorph_shadowColorDark="#11E949"
+        app:neumorph_lightSource="leftTop"
+        >
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp" />
+
+    </soup.neumorphism.NeumorphCardView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/gridBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo" />
+
+
+        <GridView
+            android:layout_marginTop="5dp"
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="14dp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+</LinearLayout>

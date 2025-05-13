@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity1"
+    android:layout_marginTop="25sp"
+    >
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/profileCard"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:neumorph_shapeType="flat"
+        app:neumorph_shadowColorDark="@color/lavender"
+        app:neumorph_shadowColorLight="@color/purple_200"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        > <!-- Exactly half of 120dp -->
+
+        <ImageView
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:id="@+id/profileImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile"
+            android:contentDescription="Profile Image" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K.S.M. Shopnill Chowdhury Shohag"
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    <!-- Neumorph CardView containing a TextView -->
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/eduCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        app:neumorph_shadowColorDark="@color/lavender"
+        app:neumorph_shadowColorLight="@color/purple_200"
+
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/educational"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educational Information"
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/perCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/lavender"
+        app:neumorph_shadowColorLight="@color/purple_200"
+
+        >
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Information"
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30sp"
+        android:id="@+id/socialCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:neumorph_lightSource="leftTop"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_backgroundColor="@android:color/white"
+        app:neumorph_cornerFamily="rounded"
+        app:neumorph_cornerSize="16dp"
+        tools:ignore="MissingConstraints"
+        app:neumorph_shadowColorDark="@color/lavender"
+        app:neumorph_shadowColorLight="@color/purple_200"
+
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social Media Platform"
+            android:textSize="23sp"
+            android:textColor="@android:color/black" />
+
+
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+
+</LinearLayout>
