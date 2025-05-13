@@ -53,7 +53,8 @@
             android:exported="false" />
         <activity
             android:name=".vedioplayer"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="MissingClass" />
         <activity
             android:name=".ActivityEm2"
             android:exported="false" />
