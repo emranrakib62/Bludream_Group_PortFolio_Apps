@@ -34,17 +34,12 @@
 
     </soup.neumorphism.NeumorphCardView>
     <FrameLayout
+        android:background="#125876"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
 
-        <ImageView
-            android:id="@+id/gridBackground"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            android:src="@drawable/logo" />
 
 
         <GridView

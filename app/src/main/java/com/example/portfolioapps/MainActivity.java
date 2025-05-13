@@ -59,8 +59,6 @@ public class MainActivity extends AppCompatActivity {
         neumorphCard = findViewById(R.id.myNeumorphCard);
 
 
-
-
         ValueAnimator animator = ValueAnimator.ofFloat(6f, 1f, 6f);
         animator.setDuration(4000);
         animator.setRepeatCount(ValueAnimator.INFINITE);
@@ -75,18 +73,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-        ImageView gridBackground = findViewById(R.id.gridBackground);
-        Animation slideUp = AnimationUtils.loadAnimation(this, R.anim.slide_up);
-        gridBackground.startAnimation(slideUp);
-
-        // Image slider setup
         sliderImages.add(R.drawable.pic1);
         sliderImages.add(R.drawable.pic2);
         sliderImages.add(R.drawable.pic3);
@@ -135,16 +121,6 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .show();
     }
-
-
-
-
-
-
-
-
-
-
 
 
     // Slider Adapter
@@ -222,18 +198,6 @@ public class MainActivity extends AppCompatActivity {
             imageView.setImageResource(images[position]);
             textView.setText(titles[position]);
 
-            // Animate: left for even indices (0, 2, 4, 6), right for odd indices (1, 3, 5, 7)
-            Animation animation;
-            if (position % 2 == 0) {
-                // For even indices (0, 2, 4, 6)
-                animation = AnimationUtils.loadAnimation(context, R.anim.slide_in_left);
-            } else {
-                // For odd indices (1, 3, 5, 7)
-                animation = AnimationUtils.loadAnimation(context, R.anim.slide_in_right);
-            }
-
-            convertView.startAnimation(animation);
-
             convertView.setOnClickListener(v -> {
                 Intent intent;
                 switch (position) {
@@ -269,5 +233,6 @@ public class MainActivity extends AppCompatActivity {
 
             return convertView;
         }
+
     }
 }
