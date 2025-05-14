@@ -51,10 +51,7 @@
         <activity
             android:name=".EducationalActivity"
             android:exported="false" />
-        <activity
-            android:name=".vedioplayer"
-            android:exported="false"
-            tools:ignore="MissingClass" />
+
         <activity
             android:name=".ActivityEm2"
             android:exported="false" />
@@ -62,8 +59,9 @@
             android:name=".ActivityEm1"
             android:exported="false" />
         <activity
-            android:name=".FullScreenActivity"
-            android:exported="false" />
+            android:name=".FullscreenActivity"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".Activity8"
             android:exported="false" />
